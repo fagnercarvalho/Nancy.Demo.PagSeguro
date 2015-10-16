@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <items>
+    <item>
+      <id>0001</id>
+      <description>Caneca</description>
+      <amount>10.00</amount>
+      <quantity>1</quantity>
+      <weight>50</weight>
+    </item>
+    <item>
+      <id>0002</id>
+      <description>Chaveiro</description>
+      <amount>5.00</amount>
+      <quantity>1</quantity>
+      <weight>10</weight>
+    </item>
+    <item>
+      <id>0003</id>
+      <description>Camiseta</description>
+      <amount>60.00</amount>
+      <quantity>2</quantity>
+      <weight>30</weight>
+    </item>    
+  </items>
+  <reference>REF5678</reference>
+  <sender>
+    <name>Joanito Veloz</name>
+    <email>joanito@sandbox.pagseguro.com.br</email>
+    <phone>
+      <areacode>51</areacode>
+      <number>95453305</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>1</type>
+    <address>
+      <street>Avenida Pres. Castelo Branco</street>
+      <number>567</number>
+      <complement>Centro</complement>
+      <district>Centro</district>
+      <postalcode>90230210</postalcode>
+      <city>Porto Alegre</city>
+      <state>SP</state>
+      <country>BRA</country>
+    </address>
+  </shipping>
+</checkout>
